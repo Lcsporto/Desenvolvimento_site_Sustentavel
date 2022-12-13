@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+#principal {
+    background-color: grey;
+    display: block;
+    box-sizing: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nome_pagina {
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline;
+    background-color: aquamarine;
+}
+
+#lista_menu {
+    display:inline-block;
+    position: relative;
+    
+    
+}
+
+.menu {
+    list-style: none;
+    display: inline;
+    background-color: lightcoral;
+}
