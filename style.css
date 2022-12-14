@@ -21,15 +21,25 @@
     background-color: aquamarine;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
 #lista_menu {
     display:inline-block;
     position: relative;
-    
-    
+    left: 600px;
+    padding-top: 50px;
 }
 
 .menu {
     list-style: none;
     display: inline;
+    margin: 20px;
     background-color: lightcoral;
+    font-size: 18px;
+    
+    
 }
