@@ -15,10 +15,11 @@
 }
 
 .nome_pagina {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     display: inline;
     background-color: aquamarine;
+    padding-left: 5%;
 }
 
 a{
@@ -29,8 +30,8 @@ a{
 
 #lista_menu {
     display:inline-block;
-    position: relative;
-    left: 600px;
+    position: flex;
+    padding-left: 40%;
     padding-top: 50px;
 }
 
@@ -39,7 +40,22 @@ a{
     display: inline;
     margin: 20px;
     background-color: lightcoral;
-    font-size: 18px;
-    
-    
+    font-size: 18px;    
+}
+
+#mensagem_inicial {
+    display: block;
+    position: relative;
+    top: 30%;
+    padding-left: 5%;
+    background-color: red;
+}
+
+.titulo {
+    font-size: 70px;
+}
+
+.intro {
+    padding: 10px;
+    font-size: 25px;
 }
