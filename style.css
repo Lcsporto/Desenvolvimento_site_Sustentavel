@@ -74,33 +74,44 @@ article{
     display: block;
     background-color: gray;
     position: flex;
-    color: black;
     width: 98.75vw;
     height: 100vh
 
 }
 
 #artigo {
-    height: 500px;
-    width: 500px    ;
+    width: 500px;
     display: inline-block;
     position: relative;
-    background-color: lightblue;
+    left: 15%;
+    top: 12%;
     
 }
 .imagem{
+    left: 7%;
     display: inline-block;
-    background-color: lightgoldenrodyellow;;
+    position: relative;
+    
+    
 }
 
 #imagem1 {
+    position: relative;
     display: inline-block;
     width: 430px;
+
 }
 
-#descricao{
+#main_title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.descricao{
+    font-size: 20px;
     display: inline-block;
-    position: flex;
+    position: relative;
     text-align: justify;
+    line-height: 25px;
     
 }
