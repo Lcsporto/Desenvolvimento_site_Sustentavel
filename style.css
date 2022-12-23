@@ -70,9 +70,9 @@ a{
     font-size: 25px;
 }
 
-article{
+section{
     display: block;
-    background-color: gray;
+    background-color: rgb(66, 66, 66);
     position: flex;
     width: 98.75vw;
     height: 100vh
@@ -113,5 +113,47 @@ article{
     position: relative;
     text-align: justify;
     line-height: 25px;
+}
+
+#MVV {
+    background-color: black;
+    height: 800px;
+}
+
+#somos{
+    display: block;
+    position: relative;
+    background-color: darkolivegreen;
+    width: 800px;
+    top: 5%;
+    left: 20%;
+    font-size: 60px;
+    text-align: center;
     
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    background-color: darkgray;
+    height: 325px;
+    width: 300px;
+    top:;
+    left:;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.imgcard{
+    height: 75px;
+    width: 75px;
+}
+
+.card_content {
+    position: relative;
+    display: inline-block;
+    background-color: pink;
+    width: 295px;
+    top: 20%;
+
 }
