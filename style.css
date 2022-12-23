@@ -138,8 +138,8 @@ section{
     background-color: darkgray;
     height: 325px;
     width: 300px;
-    top:;
-    left:;
+    top: 15%;
+    left: 13%;
     margin: 10px;
     border-radius: 10%;
 }
@@ -154,6 +154,16 @@ section{
     display: inline-block;
     background-color: pink;
     width: 295px;
-    top: 20%;
+    top: 10%;
+    left:2.5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+}
 
+.card_content > h1 {
+    padding-bottom: 30px;
+}
+.card_content > p {
+    padding-top: 20px;
 }
