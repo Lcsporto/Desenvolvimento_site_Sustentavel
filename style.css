@@ -123,7 +123,6 @@ section{
 #somos{
     display: block;
     position: relative;
-    background-color: darkolivegreen;
     width: 800px;
     top: 5%;
     left: 20%;
@@ -133,49 +132,51 @@ section{
 }
 
 #cards {
-    background-color: lightgreen;
     position: relative;
     display: inline-block;
+    height: 400px;
+    width: 950px;
     top: 15%;
     left: 15%;
 }
 
-.card{
+.card_space {
     position: relative;
     display: inline-block;
-    background-color: darkgray;
+    background-color: rgb(66, 66, 66);
+    margin: 5px;
+    border-radius: 8%;
+    text-align: center;
     height: 325px;
     width: 300px;
-    margin: 0px;
-    border-radius: 10%;
+
 }
 
-#card2{
-    padding-bottom: 30px;
+.card_text  {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 285px;
 }
 
-.imgcard{
-    height: 75px;
-    width: 75px;
+.card_text {
+    display: flex;
+    line-height: 18px;
+    font-size: 16px;
 }
 
 .card_content {
-    position: relative;
-    display: inline-block;
-    margin: 0px;
-    background-color: pink;
-    width: 295px;
-    top: 10%;
-    left:2.5px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 18px;
+    padding-top: 10%;
+}
+
+.card_content > img {
+    height: 90px;
+    width: 90px;
+    padding-bottom: 15px;
 }
 
 .card_content > h1 {
-    padding-bottom: 30px
-    
+    padding-bottom: 15px;
 }
-.card_content > p {
-    padding-top: 20px;
-}
+
