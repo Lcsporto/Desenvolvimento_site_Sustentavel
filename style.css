@@ -132,16 +132,26 @@ section{
     
 }
 
+#cards {
+    background-color: lightgreen;
+    position: relative;
+    display: inline-block;
+    top: 15%;
+    left: 15%;
+}
+
 .card{
     position: relative;
     display: inline-block;
     background-color: darkgray;
     height: 325px;
     width: 300px;
-    top: 15%;
-    left: 13%;
-    margin: 10px;
+    margin: 0px;
     border-radius: 10%;
+}
+
+#card2{
+    padding-bottom: 30px;
 }
 
 .imgcard{
@@ -152,6 +162,7 @@ section{
 .card_content {
     position: relative;
     display: inline-block;
+    margin: 0px;
     background-color: pink;
     width: 295px;
     top: 10%;
@@ -162,7 +173,8 @@ section{
 }
 
 .card_content > h1 {
-    padding-bottom: 30px;
+    padding-bottom: 30px
+    
 }
 .card_content > p {
     padding-top: 20px;
