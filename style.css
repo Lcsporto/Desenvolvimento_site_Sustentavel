@@ -181,13 +181,13 @@ section{
 }
 
 #visita {
-    height: 500px;
+    height: 470px;
 }
 
 #conhecer {
     position: relative;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 40px;
     top: 30px;
 }
@@ -200,4 +200,11 @@ section{
 #iframe_position {
     position: relative;
     left: 2px;
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
 }
