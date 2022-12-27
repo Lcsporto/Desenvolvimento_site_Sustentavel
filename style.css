@@ -180,3 +180,24 @@ section{
     padding-bottom: 15px;
 }
 
+#visita {
+    height: 500px;
+}
+
+#conhecer {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+    top: 30px;
+}
+
+#iframe {
+    position: relative;
+    top: 70px;
+}
+
+#iframe_position {
+    position: relative;
+    left: 2px;
+}
