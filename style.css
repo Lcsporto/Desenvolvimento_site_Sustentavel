@@ -11,14 +11,14 @@ body{
 }
 
 #btn {
-    background-color: aqua;
     display: block;
     position: fixed;
     z-index: 1;
     height: 60px ;
     width: 60px;
-    right: 20px;
-    bottom: 15px;
+    right: 25px;
+    bottom: 20px;
+    border-radius: 100%;
 }
 
 #btn > img {
@@ -26,6 +26,7 @@ body{
     height: 55px;
     width: 55px;
     left:2px;
+    top: 2px;
     
 }
 
