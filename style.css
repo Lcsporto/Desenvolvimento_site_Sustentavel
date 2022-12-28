@@ -91,6 +91,14 @@ a{
     
 }
 
+#sub_titulo {
+    position: relative;
+    display: inline-block;
+    left: 1%;
+    font-size: 50px;
+
+}
+
 .intro {
     padding: 10px;
     font-size: 25px;
@@ -234,3 +242,5 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+
