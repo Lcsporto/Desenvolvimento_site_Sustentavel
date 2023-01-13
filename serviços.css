@@ -117,11 +117,24 @@ section{
     display: inline-block;
     position: relative;
     font-size: 20px;
-    left: 40%;
-    top: 20%;
-    width: 400px;
+    left: 27%;
+    top: 25%;
+    width: 625px;
 }
 
 #lixos_eletronicos > ul {
     list-style: none;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+#lixos_eletronicos > p {
+    padding-top: 10px;
+}
+
+#lixos_eletronicos > h1 {
+    font-size: 70px;
+    left: 20%;
+    background-color: violet ;
+    width: 900px;
 }
