@@ -112,29 +112,59 @@ section{
 
 }
 
-#lixos_eletronicos {
-    background-color: green;
+#sobre {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    top: 15%;
+    left: 25%;
+}
+
+#cards {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 950px;
+    top: 25%;
+    left: 15%;
+}
+
+.card_space {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    margin: 5px;
+    border-radius: 8%;
+    text-align: center;
+    height: 325px;
+    width: 300px;
+
+}
+
+.card_text  {
     display: inline-block;
     position: relative;
-    font-size: 20px;
-    left: 27%;
-    top: 25%;
-    width: 625px;
+    text-align: center;
+    height: 100px;
+    width: 285px;
 }
 
-#lixos_eletronicos > ul {
-    list-style: none;
-    padding-top: 10px;
-    line-height: 20px;
+.card_text {
+    display: flex;
+    line-height: 18px;
+    font-size: 16px;
 }
 
-#lixos_eletronicos > p {
-    padding-top: 10px;
+.card_content {
+    padding-top: 10%;
 }
 
-#lixos_eletronicos > h1 {
-    font-size: 70px;
-    left: 20%;
-    background-color: violet ;
-    width: 900px;
+.card_content > img {
+    height: 90px;
+    width: 90px;
+    padding-bottom: 15px;
+}
+
+.card_content > h1 {
+    padding-bottom: 15px;
 }
