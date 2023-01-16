@@ -102,3 +102,118 @@ a{
     padding: 10px;
     font-size: 25px;
 }
+
+section{
+    display: block;
+    background-color: rgb(66, 66, 66);
+    position: flex;
+    width: 98.75vw;
+    height: 100vh
+}
+
+#formulario {
+    display: block;
+    position: relative;
+    height: 400px;
+    width: 650px;
+    top: 15%;
+    left: 80px;
+}
+
+.entrada {
+    width: 650px;
+    line-height: 30px;
+}
+
+#area_mensagem {
+    width: 650px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.area_formulario {
+    padding-top: 10px;
+}
+
+#mensagem_contato {
+    position: relative;
+    display: inline-block;
+    width: 650px;
+    left: 80px;
+    top: 10%;
+}
+
+#mensagem_contato > h1 {
+    text-align: center;
+    color: #008000;
+    font-size: 28px;
+}
+
+#mensagem_contato > p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+	background-color:#008000;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    width: 650px;
+    font-size: 15px;
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid #008000;
+	cursor: pointer;
+}
+
+#area_formulario {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    width: 800px;
+    height: 600px;
+    border-radius: 2%;
+    top: 5%;
+    left: 22%;
+
+}
+
+#visita {
+    height: 470px;
+    background-color: black;
+}
+
+#conhecer {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    top: 30px;
+}
+
+#iframe {
+    position: relative;
+    top: 70px;
+}
+
+#iframe_position {
+    position: relative;
+    left: 2px;
+    
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+}   
